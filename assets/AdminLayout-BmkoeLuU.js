@@ -1,0 +1,21 @@
+import{c as a,p as h,r as m,u,j as e,N as g,q as y,O as b}from"./index-wQo2i6QT.js";import{M as p,Q as f}from"./qr-code-BcjhzhWS.js";import{X as j}from"./x-BG0cnntT.js";/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const k=a("FolderTree",[["path",{d:"M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z",key:"hod4my"}],["path",{d:"M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z",key:"w4yl2u"}],["path",{d:"M3 5a2 2 0 0 0 2 2h3",key:"f2jnh7"}],["path",{d:"M3 3v13a2 2 0 0 0 2 2h3",key:"k8epm1"}]]);/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const v=a("LayoutDashboard",[["rect",{width:"7",height:"9",x:"3",y:"3",rx:"1",key:"10lvy0"}],["rect",{width:"7",height:"5",x:"14",y:"3",rx:"1",key:"16une8"}],["rect",{width:"7",height:"9",x:"14",y:"12",rx:"1",key:"1hutg5"}],["rect",{width:"7",height:"5",x:"3",y:"16",rx:"1",key:"ldoo1y"}]]);/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const N=a("LogOut",[["path",{d:"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4",key:"1uf3rs"}],["polyline",{points:"16 17 21 12 16 7",key:"1gabdz"}],["line",{x1:"21",x2:"9",y1:"12",y2:"12",key:"1uyos4"}]]);/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const w=a("Menu",[["line",{x1:"4",x2:"20",y1:"12",y2:"12",key:"1e0a9i"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6",key:"1owob3"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18",key:"yk5zj1"}]]),L=[{to:"/admin",end:!0,label:"Overview",icon:v},{to:"/admin/reviews",label:"Reviews",icon:p},{to:"/admin/categories",label:"Categories",icon:k},{to:"/admin/qr",label:"QR Generator",icon:f}];function A(){const{user:s,loading:l,logout:r}=h(),[n,i]=m.useState(!1),o=u();if(l)return null;if(!s)return e.jsx(g,{to:"/admin/login",replace:!0});async function d(){await r(),o("/admin/login")}return e.jsxs("div",{className:"min-h-screen bg-slate-50 flex",children:[e.jsxs("aside",{className:`fixed lg:static inset-y-0 left-0 z-40 w-64 bg-white border-r border-slate-200 transition-transform ${n?"translate-x-0":"-translate-x-full lg:translate-x-0"}`,children:[e.jsxs("div",{className:"h-16 flex items-center px-5 border-b border-slate-100",children:[e.jsx("div",{className:"w-8 h-8 rounded-lg bg-brand flex items-center justify-center text-white font-bold",children:"O"}),e.jsxs("div",{className:"ml-3",children:[e.jsx("div",{className:"font-semibold",children:"ReviewPro"}),e.jsx("div",{className:"text-xs text-ink-muted",children:"Ocean Air Care"})]})]}),e.jsx("nav",{className:"p-3 space-y-1",children:L.map(t=>{const c=t.icon;return e.jsxs(y,{to:t.to,end:t.end,onClick:()=>i(!1),className:({isActive:x})=>`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${x?"bg-brand-light text-brand":"text-ink-muted hover:bg-slate-100 hover:text-ink"}`,"data-testid":`nav-${t.label.toLowerCase().replace(/\s+/g,"-")}`,children:[e.jsx(c,{className:"w-4 h-4"}),t.label]},t.to)})}),e.jsxs("button",{onClick:d,className:"absolute bottom-4 left-3 right-3 btn-ghost !justify-start gap-3","data-testid":"admin-logout",children:[e.jsx(N,{className:"w-4 h-4"})," Sign out"]})]}),e.jsxs("div",{className:"flex-1 min-w-0 flex flex-col",children:[e.jsxs("header",{className:"h-16 bg-white border-b border-slate-200 flex items-center px-4 lg:px-6 gap-4",children:[e.jsx("button",{className:"lg:hidden btn-ghost !h-10 !px-2",onClick:()=>i(t=>!t),"data-testid":"admin-menu-toggle",children:n?e.jsx(j,{className:"w-5 h-5"}):e.jsx(w,{className:"w-5 h-5"})}),e.jsxs("div",{className:"text-sm text-ink-muted truncate",children:["Signed in as ",e.jsx("span",{className:"font-medium text-ink",children:s.email})]})]}),e.jsx("main",{className:"flex-1 p-4 lg:p-8",children:e.jsx(b,{})})]})]})}export{A as default};

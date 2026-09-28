@@ -1,0 +1,7 @@
+# Ocean Air Care ReviewPro — allow all crawlers, block admin area.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+Sitemap: https://blueprint-source.emergent.host/sitemap.xml

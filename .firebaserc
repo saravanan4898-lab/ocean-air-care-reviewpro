@@ -1,0 +1,14 @@
+# .firebaserc — associates the local repo with your Firebase project.
+# Replace project ID below with your actual Firebase project ID if different.
+{
+  "projects": {
+    "default": "ocean-air-care-ff757"
+  },
+  "targets": {
+    "ocean-air-care-ff757": {
+      "hosting": {
+        "ocean-air-care-ff757-1bb98": ["ocean-air-care-ff757-1bb98"]
+      }
+    }
+  }
+}
